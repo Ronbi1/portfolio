@@ -352,11 +352,11 @@ nav .container {
     box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .contact-content {
         flex-direction: column;
     }
-}
+} */
 
 .site-footer {
     background-color: #1f2937;
@@ -368,4 +368,74 @@ nav .container {
     text-align: center;
     font-size: 0.85rem;
     color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+        .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+
+    @media (max-width: 768px) {
+        .hero>.container {
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .circle {
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .about-me>.container {
+            flex-direction: column;
+            gap: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .project-box {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .project-card {
+            max-width: 100%;
+            /* width: 100%; */
+            border: 1px solid #e5e7eb;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.20);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .project-image {
+            border-radius: 12px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .contact-content {
+            flex-direction: column;
+        }
+
+        .contact-info {
+            margin-top: 2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .socials {
+            justify-content: center;
+        }
+    }
+
 }
