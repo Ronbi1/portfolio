@@ -12,7 +12,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0;
 }
 
 nav {
@@ -57,11 +57,11 @@ nav .container {
 }
 
 .hero>.container {
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 20rem;
+    /* gap: 30rem; */
 }
 
 
@@ -69,11 +69,14 @@ nav .container {
     font-size: 2.5rem;
     font-weight: 700;
     color: #414B5C;
+    font-style: bold;
 }
 
 .hero-content p {
     max-width: 346px;
-    height: 63px;
+    /* height: 63px; */
+    font-size: 1rem;
+    line-height: 1.6;
     font-weight: 400;
     color: #A4ACBA;
 }
@@ -112,10 +115,11 @@ nav .container {
     background-image: url('professioanl.png');
     background-size: cover;
     background-position: center;
+
 }
 
 .about-me>.container {
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     display: flex;
     /* justify-content: space-between;
     align-items: center; */
@@ -131,9 +135,10 @@ nav .container {
 }
 
 .whoami p {
-    width: 33rem;
+    /* width: 25rem; */
     /* height: 95px; */
-    font-size: 10.2px;
+    font-size: 1rem;
+    line-height: 1.6;
     font-weight: 400;
     color: #B0B7C3;
 }
@@ -157,11 +162,11 @@ nav .container {
 .skill-names p {
     color: #959DA8;
     /* margin-bottom: 1rem; */
-    font-size: 9.3px;
+    font-size: 1rem;
     font-weight: 400;
     margin: 0;
-    padding: 0.1rem;
-    line-height: 22px;
+    padding: 0;
+    line-height: 1.6;
 }
 
 
@@ -170,4 +175,138 @@ nav .container {
     height: 83px;
     /* margin-bottom: 1rem; */
     margin-top: 10px;
+}
+
+.my-project>.container {
+    padding: 4rem 0rem;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20rem;
+}
+
+.title h4 {
+    font-size: 1.5rem;
+    color: #444E5E;
+    font-weight: 700;
+    font-style: bold;
+
+}
+
+.project-box {
+    display: flex;
+    padding: 1rem;
+
+
+}
+
+.first-project {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+
+}
+
+.project-image {
+    border-radius: 8px 8px 0 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+}
+
+.explanation {
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.explanation h5 {
+    font-size: 1rem;
+}
+
+.first-project p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #B2B9C5;
+    max-width: 231px;
+}
+
+.second-project {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+
+}
+
+.project-image-two {
+    border-radius: 8px 8px 0 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-image-two img {
+    width: 100%;
+    height: auto;
+}
+
+.explanation-second {
+    padding: 1rem;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.explanation-second h6 {
+    font-size: 1rem;
+}
+
+.second-project p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #B2B9C5;
+    max-width: 231px;
+    margin-top: -12px;
+}
+
+
+.view-button {
+    background-color: #F99F0A;
+    border: #F99F0A;
+    color: white;
+    width: 75px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 0.531rem;
+    /* font-size: 9.8px; */
+    padding: 1rem;
+    border-radius: 4.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
