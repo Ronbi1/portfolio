@@ -59,11 +59,10 @@ nav .container {
 .hero>.container {
     padding: 4rem 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20rem;
 }
-
 
 
 .hero-content h1 {
@@ -110,4 +109,65 @@ nav .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('professioanl.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me>.container {
+    padding: 4rem 2rem;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20rem;
+}
+
+.whoami h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3D4758;
+}
+
+.whoami p {
+    width: 33rem;
+    /* height: 95px; */
+    font-size: 10.2px;
+    font-weight: 400;
+    color: #B0B7C3;
+}
+
+.skills-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
+
+
+}
+
+.skills h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #687180;
+    margin-bottom: 1rem;
+
+}
+
+.skill-names p {
+    color: #959DA8;
+    /* margin-bottom: 1rem; */
+    font-size: 9.3px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.1rem;
+    line-height: 22px;
+}
+
+
+.skills-content img {
+    width: 62px;
+    height: 83px;
+    /* margin-bottom: 1rem; */
+    margin-top: 10px;
 }
