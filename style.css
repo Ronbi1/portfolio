@@ -200,6 +200,7 @@ nav .container {
     padding: 1rem;
     gap: 1rem;
     justify-content: flex-start;
+    align-items: stretch;
 
 
 }
@@ -211,7 +212,7 @@ nav .container {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     max-width: 250px;
-
+    padding: 1rem;
 }
 
 .project-image {
@@ -231,17 +232,14 @@ nav .container {
 }
 
 .explanation {
-    padding: 1rem;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
 }
 
 .project-card h5 {
     font-size: 1rem;
     font-weight: 700;
     font-style: bold;
+    text-align: left;
 }
 
 .explanation p {
@@ -249,6 +247,7 @@ nav .container {
     line-height: 1.6;
     color: #B2B9C5;
     max-width: 231px;
+    text-align: left;
 }
 
 
@@ -267,6 +266,7 @@ nav .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 .view-button:hover {
