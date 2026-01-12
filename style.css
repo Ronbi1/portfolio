@@ -76,23 +76,35 @@ nav .container {
     max-width: 346px;
     height: 63px;
     font-weight: 400;
-    top: 96px;
-    left: 84.25px;
     color: #A4ACBA;
 }
 
+.custom-button {
+    background-color: #2562EE;
+    border: #1154EF;
+    color: #99B5F1;
+    width: 100px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 0.6rem;
+    /* font-size: 9.8px; */
+    padding: 1rem;
+    border-radius: 4.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .custom-button:hover {
-    background-color: blue;
-    /* A slightly darker green when hovering */
+    background-color: #1154EF;
+
 }
 
 
 .circle {
-    background-color: #E7ECF2;
+    background-color: #E2E8F0;
     width: 189px;
     height: 188px;
-    top: 2px;
-    left: 2px;
     border-radius: 93px;
     border: 1px;
     display: flex;
