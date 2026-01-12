@@ -180,11 +180,10 @@ nav .container {
 .my-project>.container {
     padding: 4rem 0rem;
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20rem;
+}
+
+.title {
+    text-align: center;
 }
 
 .title h4 {
@@ -193,16 +192,19 @@ nav .container {
     font-weight: 700;
     font-style: bold;
 
+
 }
 
 .project-box {
     display: flex;
     padding: 1rem;
+    gap: 1rem;
+    justify-content: flex-start;
 
 
 }
 
-.first-project {
+.project-card {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -236,68 +238,24 @@ nav .container {
     align-items: center;
 }
 
-.explanation h5 {
+.project-card h5 {
     font-size: 1rem;
+    font-weight: 700;
+    font-style: bold;
 }
 
-.first-project p {
+.explanation p {
     font-size: 0.9rem;
     line-height: 1.6;
     color: #B2B9C5;
     max-width: 231px;
 }
 
-.second-project {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    max-width: 250px;
-
-}
-
-.project-image-two {
-    border-radius: 8px 8px 0 0;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-image-two img {
-    width: 100%;
-    height: auto;
-}
-
-.explanation-second {
-    padding: 1rem;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: -10px;
-}
-
-.explanation-second h6 {
-    font-size: 1rem;
-}
-
-.second-project p {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #B2B9C5;
-    max-width: 231px;
-    margin-top: -12px;
-}
 
 
 .view-button {
     background-color: #F99F0A;
-    border: #F99F0A;
+    border: #FAA731;
     color: white;
     width: 75px;
     height: 27px;
@@ -309,4 +267,9 @@ nav .container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.view-button:hover {
+    background-color: #FAA731;
+
 }
